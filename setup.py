@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name="piball",
     version=__version__,
-    install_requires=['sqlalchemy', 'gpiozero', 'click', 'click-log'],
+    install_requires=['sqlalchemy', 'gpiozero', 'click', 'click-log', 'python-dotenv', 'pydantic'],
     author='Bill Normandin',
     author_email='bill@pokeybill.us',
     url='https://github.com/wnormandin/piball',
