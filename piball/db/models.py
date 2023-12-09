@@ -6,6 +6,7 @@ from typing import Union
 class ElementModel(BaseModel):
     id: int
     created_at: Union[datetime, None]
+    type: str
     label: str
     location: str
     input: bool
